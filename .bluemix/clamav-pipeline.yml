@@ -28,7 +28,7 @@ stages:
       \ on the stage.\n\n\n######################################################################################\n\
       # Copy any artifacts that will be needed for deployment and testing to $WORKSPACE\
       \    #\n######################################################################################\n\
-      \n\n//customization \n// IMAGE_NAME=<image name of deployment:version>, so that\
+      \n\n//customization \n// IMAGE_NAME=<image name of deployment:version>, so that \
       \ image does not need to be built each time \necho \"IMAGE_NAME=registry.ng.bluemix.net/phdpx/clamav:latest\"\
       \ >> $ARCHIVE_DIR/build.properties"
     IMAGE_NAME: clamav-devops
